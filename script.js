@@ -1,6 +1,6 @@
 let allEntries = [];
 let currentPage = 1;
-const rowsPerPage = 50;
+const rowsPerPage = 17;
 
 function formatEpochTime(epochSeconds) {
     if (isNaN(epochSeconds) || epochSeconds === 0) return 'N/A';
